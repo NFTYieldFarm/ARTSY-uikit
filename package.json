@@ -1,5 +1,5 @@
 {
-  "_from": "github:goosedefi/goose-uikit",
+  "_from": "github:nftyieldfarm/artsy-uikit",
   "_id": "@pancakeswap-libs/uikit@0.10.2",
   "_inBundle": false,
   "_integrity": "",
@@ -7,23 +7,23 @@
   "_phantomChildren": {},
   "_requested": {
     "type": "git",
-    "raw": "@pancakeswap-libs/uikit@github:goosedefi/goose-uikit",
+    "raw": "@pancakeswap-libs/uikit@github:nftyieldfarm/artsy-uikit",
     "name": "@pancakeswap-libs/uikit",
     "escapedName": "@pancakeswap-libs%2fuikit",
     "scope": "@pancakeswap-libs",
-    "rawSpec": "github:goosedefi/goose-uikit",
-    "saveSpec": "github:goosedefi/goose-uikit",
+    "rawSpec": "github:nftyieldfarm/artsy-uikit",
+    "saveSpec": "github:nftyieldfarm/artsy-uikit",
     "fetchSpec": null,
     "gitCommittish": null
   },
   "_requiredBy": [
     "/"
   ],
-  "_resolved": "github:goosedefi/goose-uikit#4a665ca7b735e1fc9e22191b98912308a6001bbd",
-  "_spec": "@pancakeswap-libs/uikit@github:goosedefi/goose-uikit",
+  "_resolved": "github:nftyieldfarm/artsy-uikit#5ceb4d3b064f11187dcb6d7af153f5a5eeac17e9",
+  "_spec": "@pancakeswap-libs/uikit@github:nftyieldfarm/artsy-uikit",
   "_where": "C:\\Users\\Admins\\Desktop\\Farms\\frontend",
   "bugs": {
-    "url": "https://github.com/goosedefi/goose-uikit/issues"
+    "url": "https://github.com/nftyieldfarm/artsy-uikit/issues"
   },
   "bundleDependencies": false,
   "dependencies": {
@@ -77,7 +77,7 @@
   "files": [
     "dist"
   ],
-  "homepage": "https://github.com/goosedefi/goose-uikit#readme",
+  "homepage": "https://github.com/nftyieldfarm/artsy-uikit#readme",
   "husky": {
     "hooks": {
       "pre-commit": "yarn format",
@@ -101,7 +101,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/goosedefi/goose-uikit.git"
+    "url": "git+https://github.com/nftyieldfarm/artsy-uikit.git"
   },
   "scripts": {
     "build": "rollup -c && tsc -d --emitDeclarationOnly --declarationDir dist",
