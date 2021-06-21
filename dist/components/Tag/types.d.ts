@@ -7,6 +7,7 @@ export declare const variants: {
     readonly TEXTDISABLED: "textDisabled";
     readonly TEXTSUBTLE: "textSubtle";
     readonly BINANCE: "binance";
+    readonly FEES: "fees";
     readonly FAILURE: "failure";
 };
 export declare type Variants = typeof variants[keyof typeof variants];
