@@ -2248,7 +2248,7 @@ var socials = [
         items: [
             {
                 label: "English",
-                href: "https://t.me/artsydefi",
+                href: "https://t.me/ARTSY_DeFi",
             },
             // {
             //   label: "Bahasa Indonesia",
@@ -2304,7 +2304,7 @@ var socials = [
     {
         label: "Twitter",
         icon: "TwitterIcon",
-        href: "https://twitter.com/artsydefi",
+        href: "https://twitter.com/ARTSY_DeFi",
     },
     {
         label: "Discord",
