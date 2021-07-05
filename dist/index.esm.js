@@ -1874,8 +1874,8 @@ var Icon$P = function (props) {
 
 var Logo = function (_a) {
     var isDark = _a.isDark, props = __rest(_a, ["isDark"]);
-    return (React.createElement(Svg, __assign({ viewBox: "0 0 205 26" }, props),
-        React.createElement("image", { width: "205", height: "26", href: isDark ? '/images/egg/LogoTextNewDark.png' : '/images/egg/LogoTextNewDark.png' })));
+    return (React.createElement(Svg, __assign({ viewBox: "0 0 205 75" }, props),
+        React.createElement("image", { width: "205", height: "75", href: isDark ? '/images/egg/LogoTextNewDark.png' : '/images/egg/LogoTextNewDark.png' })));
 };
 
 var Icon$Q = function (props) {
@@ -1957,24 +1957,24 @@ var Icon$69 = function (props) {
 var Icon$70 = function (props) {
     return (React.createElement(Svg, __assign({ viewBox: "0 0 20 20" }, props),
          React.createElement("path", { d: "M10.21,1 L0,11.21 L8.1,19.31 L18.31,9.1 L10.21,1 L10.21,1 Z M16.89,9.1 L15,11 L1.7,11 L10.21,2.42 L16.89,9.1 Z" }),
-         React.createElement("path", { stroke: "#f9b208", d: "M6.42,2.33 L11.7,7.61" }),
+         React.createElement("path", { stroke: "#fcca3f", d: "M6.42,2.33 L11.7,7.61" }),
          React.createElement("path", { d: "M18.49,12 C18.49,12 20,14.06 20,15.36 C20,16.28 19.24,17 18.49,17 L18.49,17 C17.74,17 17,16.28 17,15.36 C17,14.06 18.49,12 18.49,12 L18.49,12 Z"})));
         };
 
 var Icon$71 = function (props) {
     return (React.createElement(Svg, __assign({ viewBox: "0 0 20 20" }, props),
-            React.createElement("rect", { fill: "none", stroke: "#f9b208", width: "13", height: "17", x: "3.5", y: "1.5" }),
-            React.createElement("line", { stroke: "#f9b208", x1: "6", x2: "12", y1: "12.5", y2: "12.5" }),
-            React.createElement("line", { stroke: "#f9b208", x1: "6", x2: "14", y1: "8.5", y2: "8.5" }),
-            React.createElement("line", { stroke: "#f9b208", x1: "6", x2: "14", y1: "6.5", y2: "6.5" }),
-            React.createElement("line", { stroke: "#f9b208", x1: "6", x2: "14", y1: "10.5", y2: "10.5" })));
+            React.createElement("rect", { fill: "none", stroke: "#fcca3f", width: "13", height: "17", x: "3.5", y: "1.5" }),
+            React.createElement("line", { stroke: "#fcca3f", x1: "6", x2: "12", y1: "12.5", y2: "12.5" }),
+            React.createElement("line", { stroke: "#fcca3f", x1: "6", x2: "14", y1: "8.5", y2: "8.5" }),
+            React.createElement("line", { stroke: "#fcca3f", x1: "6", x2: "14", y1: "6.5", y2: "6.5" }),
+            React.createElement("line", { stroke: "#fcca3f", x1: "6", x2: "14", y1: "10.5", y2: "10.5" })));
            
         };
 var Icon$72 = function (props) {
     return (React.createElement(Svg, __assign({ viewBox: "0 0 20 20" }, props),
-            React.createElement("path", { fill: "none", stroke: "#f9b208", width: "1.1", d: "M6.5,14.61 L3.75,14.61 C1.96,14.61 0.5,13.17 0.5,11.39 C0.5,9.76 1.72,8.41 3.3,8.2 C3.38,5.31 5.75,3 8.68,3 C11.19,3 13.31,4.71 13.89,7.02 C14.39,6.8 14.93,6.68 15.5,6.68 C17.71,6.68 19.5,8.45 19.5,10.64 C19.5,12.83 17.71,14.6 15.5,14.6 L12.5,14.6" }),
-            React.createElement("polyline", {fill: "none", stroke: "#f9b208", points: "11.75 16 9.5 18.25 7.25 16" }),
-            React.createElement("path", { fill: "none", stroke: "#f9b208", d: "M9.5,18 L9.5,9.5" })));
+            React.createElement("path", { fill: "none", stroke: "#fcca3f", width: "1.1", d: "M6.5,14.61 L3.75,14.61 C1.96,14.61 0.5,13.17 0.5,11.39 C0.5,9.76 1.72,8.41 3.3,8.2 C3.38,5.31 5.75,3 8.68,3 C11.19,3 13.31,4.71 13.89,7.02 C14.39,6.8 14.93,6.68 15.5,6.68 C17.71,6.68 19.5,8.45 19.5,10.64 C19.5,12.83 17.71,14.6 15.5,14.6 L12.5,14.6" }),
+            React.createElement("polyline", {fill: "none", stroke: "#fcca3f", points: "11.75 16 9.5 18.25 7.25 16" }),
+            React.createElement("path", { fill: "none", stroke: "#fcca3f", d: "M9.5,18 L9.5,9.5" })));
                    
                 };
 
@@ -2248,7 +2248,7 @@ var socials = [
         items: [
             {
                 label: "English",
-                href: "https://t.me/ARTSY_DeFi",
+                href: "https://t.me/artsydefi",
             },
             // {
             //   label: "Bahasa Indonesia",
@@ -2304,7 +2304,7 @@ var socials = [
     {
         label: "Twitter",
         icon: "TwitterIcon",
-        href: "https://twitter.com/ARTSY_DeFi",
+        href: "https://twitter.com/artsydefi",
     },
     {
         label: "Discord",
@@ -2877,12 +2877,12 @@ var templateObject_1$K;
 
 var baseColors = {
     failure: "#ED4B9E",
-    primary: "#f9b208",
+    primary: "#fcca3f",
     fees: "#66DE93",
     primaryBright: "#aa8929",
     primaryDark: "#aa8929",
-    secondary: "#f9b208",
-    success: "#f9b208",
+    secondary: "#fcca3f",
+    success: "#fcca3f",
     warning: "#FFB237",
 };
 var brandColors = {
