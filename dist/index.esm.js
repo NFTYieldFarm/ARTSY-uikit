@@ -646,7 +646,7 @@ var InactiveButton = styled(Button)(templateObject_1$8 || (templateObject_1$8 = 
 var ButtonMenuItem = function (_a) {
     var _b = _a.isActive, isActive = _b === void 0 ? false : _b, _c = _a.size, size = _c === void 0 ? sizes.MD : _c, _d = _a.variant, variant = _d === void 0 ? variants.PRIMARY : _d, as = _a.as, props = __rest(_a, ["isActive", "size", "variant", "as"]);
     if (!isActive) {
-        return (React.createElement(InactiveButton, __assign({ forwardedAs: as, size: size, variant: "tertiary", colorKey: variant === variants.PRIMARY ? "primary" : "textSubtle" }, props)));
+        return (React.createElement(InactiveButton, __assign({ forwardedAs: as, size: size, variant: "primary", colorKey: variant === variants.PRIMARY ? "primary" : "textSubtle" }, props)));
     }
     return React.createElement(Button, __assign({ as: as, size: size, variant: variant }, props));
 };
@@ -1830,10 +1830,10 @@ var useModal = function (modal, closeOnOverlayClick) {
 
 var Icon$I = function (props) {
     return (React.createElement(Svg, __assign({ viewBox: "0 0 24 24" }, props),
-        React.createElement("path", { d: "M13.7803 2.71967C14.0732 3.01256 14.0732 3.48744 13.7803 3.78033L12.8107 4.75L14.0307 5.96999H20C21.1 5.96999 22 6.86999 22 7.96999V12.73C21.28 12.25 20.43 11.97 19.5 11.97C17.19 11.97 15.3 13.73 15.05 15.97H11.91C11.96 15.64 12 15.31 12 14.97C12 13.43 11.41 12.03 10.46 10.97H11C12.1 10.97 13 10.07 13 8.96999V7.06068L11.75 5.81066L10.7803 6.78033C10.4874 7.07322 10.0126 7.07322 9.71967 6.78033C9.42678 6.48744 9.42678 6.01256 9.71967 5.71967L12.7197 2.71967C13.0126 2.42678 13.4874 2.42678 13.7803 2.71967Z" }),
+        React.createElement("path", { fill: "#00ADB5", d: "M13.7803 2.71967C14.0732 3.01256 14.0732 3.48744 13.7803 3.78033L12.8107 4.75L14.0307 5.96999H20C21.1 5.96999 22 6.86999 22 7.96999V12.73C21.28 12.25 20.43 11.97 19.5 11.97C17.19 11.97 15.3 13.73 15.05 15.97H11.91C11.96 15.64 12 15.31 12 14.97C12 13.43 11.41 12.03 10.46 10.97H11C12.1 10.97 13 10.07 13 8.96999V7.06068L11.75 5.81066L10.7803 6.78033C10.4874 7.07322 10.0126 7.07322 9.71967 6.78033C9.42678 6.48744 9.42678 6.01256 9.71967 5.71967L12.7197 2.71967C13.0126 2.42678 13.4874 2.42678 13.7803 2.71967Z" }),
         React.createElement("path", { fillRule: "evenodd", clipRule: "evenodd", d: "M11 15C11 17.7614 8.76142 20 6 20C3.23858 20 1 17.7614 1 15C1 12.2386 3.23858 10 6 10C8.76142 10 11 12.2386 11 15ZM9 15C9 16.6569 7.65685 18 6 18C4.34315 18 3 16.6569 3 15C3 13.3431 4.34315 12 6 12C7.65685 12 9 13.3431 9 15Z" }),
         React.createElement("path", { fillRule: "evenodd", clipRule: "evenodd", d: "M19.5 12.97C17.57 12.97 16 14.54 16 16.47C16 18.4 17.57 19.97 19.5 19.97C21.43 19.97 23 18.4 23 16.47C23 14.54 21.43 12.97 19.5 12.97ZM19.5 17.97C18.67 17.97 18 17.3 18 16.47C18 15.64 18.67 14.97 19.5 14.97C20.33 14.97 21 15.64 21 16.47C21 17.3 20.33 17.97 19.5 17.97Z" }),
-        React.createElement("path", { d: "M9 8.96997H4C3.45 8.96997 3 8.52997 3 7.96997C3 7.41997 3.45 6.96997 4 6.96997H7C8.1 6.96997 9 7.86997 9 8.96997Z" })));
+        React.createElement("path", { fill: "#00ADB5", d: "M9 8.96997H4C3.45 8.96997 3 8.52997 3 7.96997C3 7.41997 3.45 6.96997 4 6.96997H7C8.1 6.96997 9 7.86997 9 8.96997Z" })));
 };
 
 var Icon$J = function (props) {
@@ -1853,7 +1853,7 @@ var Icon$L = function (props) {
 
 var Icon$M = function (props) {
     return (React.createElement(Svg, __assign({ viewBox: "0 0 24 24" }, props),
-        React.createElement("path", { d: "M9.99998 19V14H14V19C14 19.55 14.45 20 15 20H18C18.55 20 19 19.55 19 19V12H20.7C21.16 12 21.38 11.43 21.03 11.13L12.67 3.59997C12.29 3.25997 11.71 3.25997 11.33 3.59997L2.96998 11.13C2.62998 11.43 2.83998 12 3.29998 12H4.99998V19C4.99998 19.55 5.44998 20 5.99998 20H8.99998C9.54998 20 9.99998 19.55 9.99998 19Z" })));
+        React.createElement("path", {fill: "#00ADB5", d: "M9.99998 19V14H14V19C14 19.55 14.45 20 15 20H18C18.55 20 19 19.55 19 19V12H20.7C21.16 12 21.38 11.43 21.03 11.13L12.67 3.59997C12.29 3.25997 11.71 3.25997 11.33 3.59997L2.96998 11.13C2.62998 11.43 2.83998 12 3.29998 12H4.99998V19C4.99998 19.55 5.44998 20 5.99998 20H8.99998C9.54998 20 9.99998 19.55 9.99998 19Z" })));
 };
 
 var Icon$N = function (props) {
@@ -1864,7 +1864,7 @@ var Icon$N = function (props) {
 var Icon$O = function (props) {
     return (React.createElement(Svg, __assign({ viewBox: "0 0 24 24" }, props),
         React.createElement("path", { d: "M5 7C5 6.44772 4.55228 6 4 6C3.44772 6 3 6.44772 3 7V18C3 19.1046 3.89543 20 5 20H20C20.5523 20 21 19.5523 21 19C21 18.4477 20.5523 18 20 18H5V7Z" }),
-        React.createElement("path", { fillRule: "evenodd", clipRule: "evenodd", d: "M19 17H7C6.44772 17 6 16.5523 6 16V12C6 11.4477 6.44772 11 7 11H10V10C10 9.44772 10.4477 9 11 9H14V7C14 6.44772 14.4477 6 15 6H19C19.5523 6 20 6.44772 20 7V16C20 16.5523 19.5523 17 19 17ZM16 8H18V15H16V8ZM12 15H14V11H12V15ZM10 13H8V15H10V13Z" })));
+        React.createElement("path", {fill: "#00ADB5", fillRule: "evenodd", clipRule: "evenodd", d: "M19 17H7C6.44772 17 6 16.5523 6 16V12C6 11.4477 6.44772 11 7 11H10V10C10 9.44772 10.4477 9 11 9H14V7C14 6.44772 14.4477 6 15 6H19C19.5523 6 20 6.44772 20 7V16C20 16.5523 19.5523 17 19 17ZM16 8H18V15H16V8ZM12 15H14V11H12V15ZM10 13H8V15H10V13Z" })));
 };
 
 var Icon$P = function (props) {
@@ -1874,8 +1874,8 @@ var Icon$P = function (props) {
 
 var Logo = function (_a) {
     var isDark = _a.isDark, props = __rest(_a, ["isDark"]);
-    return (React.createElement(Svg, __assign({ viewBox: "0 0 205 75" }, props),
-        React.createElement("image", { width: "205", height: "75", href: isDark ? '/images/egg/LogoTextNewDark.png' : '/images/egg/LogoTextNewDark.png' })));
+    return (React.createElement(Svg, __assign({ viewBox: "25 0 205 75" }, props),
+        React.createElement("image", { width: "205", height: "75", href: isDark ? '/images/egg/newLogo.png' : '/images/egg/newLogo.png' })));
 };
 
 var Icon$Q = function (props) {
@@ -1890,7 +1890,7 @@ var Icon$R = function (props) {
 
 var Icon$S = function (props) {
     return (React.createElement(Svg, __assign({ viewBox: "0 0 24 24" }, props),
-        React.createElement("path", { d: "M12.8533 3.39627C12.4634 2.75821 11.5366 2.75821 11.1467 3.39627L7.42977 9.47855C7.02256 10.1449 7.50213 11 8.28306 11H15.7169C16.4979 11 16.9774 10.1449 16.5702 9.47855L12.8533 3.39627ZM12 5.84L13.93 9H10.06L12 5.84ZM17.5 13C15.01 13 13 15.01 13 17.5C13 19.99 15.01 22 17.5 22C19.99 22 22 19.99 22 17.5C22 15.01 19.99 13 17.5 13ZM17.5 20C16.12 20 15 18.88 15 17.5C15 16.12 16.12 15 17.5 15C18.88 15 20 16.12 20 17.5C20 18.88 18.88 20 17.5 20ZM3 19.5C3 20.6046 3.89543 21.5 5 21.5H9C10.1046 21.5 11 20.6046 11 19.5V15.5C11 14.3954 10.1046 13.5 9 13.5H5C3.89543 13.5 3 14.3954 3 15.5V19.5ZM5 15.5H9V19.5H5V15.5Z" })));
+        React.createElement("path", {stroke:"#00ADB5", d: "M12.8533 3.39627C12.4634 2.75821 11.5366 2.75821 11.1467 3.39627L7.42977 9.47855C7.02256 10.1449 7.50213 11 8.28306 11H15.7169C16.4979 11 16.9774 10.1449 16.5702 9.47855L12.8533 3.39627ZM12 5.84L13.93 9H10.06L12 5.84ZM17.5 13C15.01 13 13 15.01 13 17.5C13 19.99 15.01 22 17.5 22C19.99 22 22 19.99 22 17.5C22 15.01 19.99 13 17.5 13ZM17.5 20C16.12 20 15 18.88 15 17.5C15 16.12 16.12 15 17.5 15C18.88 15 20 16.12 20 17.5C20 18.88 18.88 20 17.5 20ZM3 19.5C3 20.6046 3.89543 21.5 5 21.5H9C10.1046 21.5 11 20.6046 11 19.5V15.5C11 14.3954 10.1046 13.5 9 13.5H5C3.89543 13.5 3 14.3954 3 15.5V19.5ZM5 15.5H9V19.5H5V15.5Z" })));
 };
 
 var Icon$T = function (props) {
@@ -1956,27 +1956,44 @@ var Icon$69 = function (props) {
 
 var Icon$70 = function (props) {
     return (React.createElement(Svg, __assign({ viewBox: "0 0 20 20" }, props),
-         React.createElement("path", { d: "M10.21,1 L0,11.21 L8.1,19.31 L18.31,9.1 L10.21,1 L10.21,1 Z M16.89,9.1 L15,11 L1.7,11 L10.21,2.42 L16.89,9.1 Z" }),
-         React.createElement("path", { stroke: "#fcca3f", d: "M6.42,2.33 L11.7,7.61" }),
-         React.createElement("path", { d: "M18.49,12 C18.49,12 20,14.06 20,15.36 C20,16.28 19.24,17 18.49,17 L18.49,17 C17.74,17 17,16.28 17,15.36 C17,14.06 18.49,12 18.49,12 L18.49,12 Z"})));
+         React.createElement("path", { stroke:"#00ADB5", d: "M10.21,1 L0,11.21 L8.1,19.31 L18.31,9.1 L10.21,1 L10.21,1 Z M16.89,9.1 L15,11 L1.7,11 L10.21,2.42 L16.89,9.1 Z" }),
+         React.createElement("path", { stroke:"#00ADB5", d: "M6.42,2.33 L11.7,7.61" }),
+         React.createElement("path", { stroke:"#00ADB5", d: "M18.49,12 C18.49,12 20,14.06 20,15.36 C20,16.28 19.24,17 18.49,17 L18.49,17 C17.74,17 17,16.28 17,15.36 C17,14.06 18.49,12 18.49,12 L18.49,12 Z"})));
         };
 
 var Icon$71 = function (props) {
     return (React.createElement(Svg, __assign({ viewBox: "0 0 20 20" }, props),
-            React.createElement("rect", { fill: "none", stroke: "#fcca3f", width: "13", height: "17", x: "3.5", y: "1.5" }),
-            React.createElement("line", { stroke: "#fcca3f", x1: "6", x2: "12", y1: "12.5", y2: "12.5" }),
-            React.createElement("line", { stroke: "#fcca3f", x1: "6", x2: "14", y1: "8.5", y2: "8.5" }),
-            React.createElement("line", { stroke: "#fcca3f", x1: "6", x2: "14", y1: "6.5", y2: "6.5" }),
-            React.createElement("line", { stroke: "#fcca3f", x1: "6", x2: "14", y1: "10.5", y2: "10.5" })));
+            React.createElement("rect", { fill: "none", stroke:"#00ADB5", width: "13", height: "17", x: "3.5", y: "1.5" }),
+            React.createElement("line", { stroke:"#fa5a41", x1: "6", x2: "12", y1: "12.5", y2: "12.5" }),
+            React.createElement("line", { stroke:"#fa5a41", x1: "6", x2: "14", y1: "8.5", y2: "8.5" }),
+            React.createElement("line", { stroke:"#fa5a41", x1: "6", x2: "14", y1: "6.5", y2: "6.5" }),
+            React.createElement("line", { stroke:"#fa5a41", x1: "6", x2: "14", y1: "10.5", y2: "10.5" })));
            
         };
 var Icon$72 = function (props) {
     return (React.createElement(Svg, __assign({ viewBox: "0 0 20 20" }, props),
-            React.createElement("path", { fill: "none", stroke: "#fcca3f", width: "1.1", d: "M6.5,14.61 L3.75,14.61 C1.96,14.61 0.5,13.17 0.5,11.39 C0.5,9.76 1.72,8.41 3.3,8.2 C3.38,5.31 5.75,3 8.68,3 C11.19,3 13.31,4.71 13.89,7.02 C14.39,6.8 14.93,6.68 15.5,6.68 C17.71,6.68 19.5,8.45 19.5,10.64 C19.5,12.83 17.71,14.6 15.5,14.6 L12.5,14.6" }),
-            React.createElement("polyline", {fill: "none", stroke: "#fcca3f", points: "11.75 16 9.5 18.25 7.25 16" }),
-            React.createElement("path", { fill: "none", stroke: "#fcca3f", d: "M9.5,18 L9.5,9.5" })));
+            React.createElement("path", { fill: "none", stroke:"#00ADB5", width: "1.1", d: "M6.5,14.61 L3.75,14.61 C1.96,14.61 0.5,13.17 0.5,11.39 C0.5,9.76 1.72,8.41 3.3,8.2 C3.38,5.31 5.75,3 8.68,3 C11.19,3 13.31,4.71 13.89,7.02 C14.39,6.8 14.93,6.68 15.5,6.68 C17.71,6.68 19.5,8.45 19.5,10.64 C19.5,12.83 17.71,14.6 15.5,14.6 L12.5,14.6" }),
+            React.createElement("polyline", {fill: "none", stroke:"#00ADB5", points: "11.75 16 9.5 18.25 7.25 16" }),
+            React.createElement("path", { fill: "none", stroke:"#00ADB5", d: "M9.5,18 L9.5,9.5" })));
                    
                 };
+
+var Icon$73 = function (props) {
+    return (React.createElement(Svg, __assign({ viewBox: "0 0 20 20" }, props),
+            React.createElement("circle", {cx: "16.1", stroke:"#fa5a41", cy:"6.1", r:"1.1"}),
+            React.createElement("rect", {fill: "none", stroke:"#00ADB5", x:".5", y:"2.5", width:"19", height: "15"}),
+            React.createElement("polyline", {strokeWidth:"1.01", points:"4,13 8,9 13,14"}),
+            React.createElement("polyline", {strokeWidth:"1.01", points:"11,12 12.5,10.5 16,14"})));
+                                   
+                };
+var Icon$74 = function (props) {
+     return (React.createElement(Svg, __assign({ viewBox: "0 0 20 20" }, props),
+            React.createElement("rect", {fill:"none", stroke:"#00ADB5", x:"3.5", y:"3.5", width:"5", height:"5"}),
+            React.createElement("rect", {fill: "none", stroke:"#fa5a41", x:"11.5", y:"3.5", width:"5", height: "5"}),
+            React.createElement("rect", {fill: "none", stroke:"#00ADB5", x:"11.5", y:"11.5", width:"5", height: "5"}),
+            React.createElement("rect", {fill: "none", stroke:"#fa5a41", x:"3.5", y:"11.5", width:"5", height: "5"})));
+                                                   
+                                };
 
 var Icon$10 = function (props) {
     return (React.createElement(Svg, __assign({ viewBox: "0 0 506.161 506.161" }, props),
@@ -2090,6 +2107,8 @@ var IconModule = /*#__PURE__*/Object.freeze({
     PaintIcon: Icon$70,
     TextIcon: Icon$71,
     ClaimIcon: Icon$72,
+    PictureIcon: Icon$73,
+    ImageThumbnail: Icon$74,
     HandshakeIcon: Icon$10,
     LayerIcon: Icon$11,
     RoadmapIcon: Icon$12,
@@ -2447,7 +2466,20 @@ var PanelFooter = function (_a) {
                 return (React.createElement(Link, { external: true, key: social.label, href: social.href, "aria-label": social.label, mr: mr },
                     React.createElement(Icon, __assign({}, iconProps))));
             }))),
-        ));
+ 
+            React.createElement(SettingsEntry, null,
+                React.createElement(Button, { variant: "text", onClick: function () { return toggleTheme(!isDark); } },
+                    React.createElement(Flex, { alignItems: "center" },
+                        React.createElement(SunIcon, { color: isDark ? "textDisabled" : "primary", width: "24px" }),
+                        React.createElement(Text, { color: "textDisabled", mx: "4px" }, "/"),
+                        React.createElement(MoonIcon, { color: isDark ? "primary" : "textDisabled", width: "24px" }))),
+                React.createElement(Dropdown, { position: "top-right", target: React.createElement(Button, { variant: "text", startIcon: React.createElement(LanguageIcon, { color: "textSubtle", width: "24px" }) },
+                        React.createElement(Text, { color: "textSubtle" }, currentLang === null || currentLang === void 0 ? void 0 : currentLang.toUpperCase())) }, langs.map(function (lang) { return (React.createElement(MenuButton, { key: lang.code, fullWidth: true, onClick: function () { return setLang(lang); }, 
+                    // Safari fix
+                    style: { minHeight: "32px", height: "auto" } }, lang.language)); })))));
+    
+
+
 };
 var templateObject_1$C, templateObject_2$c, templateObject_3$7, templateObject_4$2;
 
@@ -2649,7 +2681,7 @@ var AccountModal = function (_a) {
     return (React.createElement(Modal, { title: "Your wallet", onDismiss: onDismiss },
         React.createElement(Text, { fontSize: "20px", bold: true, style: { whiteSpace: "nowrap", overflow: "hidden", textOverflow: "ellipsis", marginBottom: "8px" } }, account),
         React.createElement(Flex, { mb: "32px" },
-            React.createElement(LinkExternal, { small: true, href: "https://bscscan.com/address/" + account, mr: "16px" }, "View on BscScan"),
+            React.createElement(LinkExternal, { small: true, href: "https://polygonscan.com/address/" + account, mr: "16px" }, "View on PolygonScan"),
             React.createElement(CopyToClipboard, { toCopy: account }, "Copy Address")),
         React.createElement(Flex, { justifyContent: "center" },
             React.createElement(Button, { size: "sm", variant: "secondary", onClick: function () {
@@ -2877,21 +2909,21 @@ var templateObject_1$K;
 
 var baseColors = {
     failure: "#ED4B9E",
-    primary: "#fcca3f",
+    primary: "#fa5a41",
     fees: "#66DE93",
     primaryBright: "#aa8929",
     primaryDark: "#aa8929",
-    secondary: "#fcca3f",
-    success: "#fcca3f",
-    warning: "#fcca3f",
+    secondary: "#00ADB5",
+    success: "#fa5a41",
+    warning: "#fa5a41",
 };
 var brandColors = {
     binance: "#F0B90B",
 };
-var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { background: "#FAF9FA", backgroundDisabled: "#E9EAEB", contrast: "#191326", invertedContrast: "#FFFFFF", input: "#eeeaf4", tertiary: "#EFF4F5", text: "#fcca3f", textDisabled: "#BDC2C4", textSubtle: "#fcca3f", borderColor: "#E9EAEB", card: "#FFFFFF", gradients: {
+var lightColors = __assign(__assign(__assign({}, baseColors), brandColors), { numbers: "#000000", background: "#FAF9FA", backgroundDisabled: "#E9EAEB", contrast: "#191326", invertedContrast: "#FFFFFF", input: "#eeeaf4", tertiary: "#EFF4F5", text: "primary", textDisabled: "#BDC2C4", textSubtle: "#fa5a41", borderColor: "#E9EAEB", card: "#FFFFFF", gradients: {
         bubblegum: "linear-gradient(139.73deg, #E6FDFF 0%, #F3EFFF 100%)",
     } });
-var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { secondary: "#fcca3f", background: "#343135", backgroundDisabled: "#3c3742", contrast: "#343135", invertedContrast: "#191326", input: "#000000", primaryDark: "#0098A1", tertiary: "#343135", text: "#FFFFFF", textDisabled: "#666171", textSubtle: "#fcca3f", borderColor: "#524B63", card: "#27262c", gradients: {
+var darkColors = __assign(__assign(__assign({}, baseColors), brandColors), { numbers: "#FAEBE0", secondary: "#00ADB5", background: "#343135", backgroundDisabled: "#3c3742", contrast: "#343135", invertedContrast: "#191326", input: "#000000", primaryDark: "#0098A1", tertiary: "#FAEBE0", text: "#00ADB5", textDisabled: "#BDC2C4", textSubtle: "#fa5a41", borderColor: "#524B63", card: "#27262c", gradients: {
         bubblegum: "linear-gradient(139.73deg, #313D5C 0%, #3D2A54 100%)",
     } });
 
@@ -3039,4 +3071,4 @@ var darkTheme = __assign(__assign({}, base), { isDark: true, alert: dark, button
 
 var lightTheme = __assign(__assign({}, base), { isDark: false, alert: light, button: light$1, colors: lightColors, card: light$2, toggle: light$4, nav: light$5, modal: light$6, radio: light$3 });
 
-export { Icon$4 as AddIcon, Alert, Icon$5 as ArrowBackIcon, Icon$6 as ArrowDownIcon, Icon$7 as ArrowDropDownIcon, Icon$8 as ArrowDropUpIcon, Icon$9 as ArrowForwardIcon, Icon$a as AutoRenewIcon, BackgroundImage, GridLayout as BaseLayout, Icon$b as BinanceIcon, Icon$2 as BlockIcon, Breadcrumbs, Icon$c as BunnyPlaceholderIcon, Button, ButtonMenu, ButtonMenuItem, Icon$e as CalculateIcon, Card, CardBody, CardFooter, CardHeader, CardRibbon, Icon$d as CardViewIcon, GridLayout$1 as CardsLayout, Checkbox, Icon as CheckmarkCircleIcon, Icon$f as CheckmarkIcon, Icon$g as ChevronDownIcon, Icon$h as ChevronLeftIcon, Icon$i as ChevronRightIcon, Icon$j as ChevronUpIcon, Icon$k as CloseIcon, Icon$l as CogIcon, Icon$m as CommunityIcon, Icon$n as CopyIcon, CopyToClipboard, Dropdown, Icon$1 as ErrorIcon, Flex, Icon$w as GooseRoundIcon, Heading, Icon$o as HelpIcon, IconButton, Image, Icon$3 as InfoIcon, Input, Link, LinkExternal, Icon$p as ListViewIcon, Icon$q as LogoIcon, Icon$r as LogoRoundIcon, Menu, Icon$s as MinusIcon, Modal, ModalProvider, Icon$t as OpenNewIcon, Icon$v as PancakeRoundIcon, Icon$u as PancakesIcon, Icon$x as PrizeIcon, Progress, Icon$A as ProgressBunny, Radio, Icon$y as RemoveIcon, ResetCSS, Icon$E as SearchIcon, Skeleton, Spinner, Svg, Icon$F as SwapVertIcon, Icon$69 as DiscordIcon, Icon$72 as ClaimIcon, Icon$70 as PaintIcon, Icon$71 as TextIcon, Icon$G as SyncAltIcon, Tag, Text, Icon$C as Ticket, Icon$D as TicketRound, ToastContainer, Toggle, Icon$z as VerifiedIcon, Icon$H as WarningIcon, Icon$B as Won, variants$1 as alertVariants, byTextAscending, byTextDescending, darkTheme as dark, darkColors, lightTheme as light, lightColors, makeRender, links as menuConfig, types as toastTypes, useMatchBreakpoints, useModal, useParticleBurst, useTable, useWalletModal };
+export { Icon$4 as AddIcon, Alert, Icon$5 as ArrowBackIcon, Icon$6 as ArrowDownIcon, Icon$7 as ArrowDropDownIcon, Icon$8 as ArrowDropUpIcon, Icon$9 as ArrowForwardIcon, Icon$a as AutoRenewIcon, BackgroundImage, GridLayout as BaseLayout, Icon$b as BinanceIcon, Icon$2 as BlockIcon, Breadcrumbs, Icon$c as BunnyPlaceholderIcon, Button, ButtonMenu, ButtonMenuItem, Icon$e as CalculateIcon, Card, CardBody, CardFooter, CardHeader, CardRibbon, Icon$d as CardViewIcon, GridLayout$1 as CardsLayout, Checkbox, Icon as CheckmarkCircleIcon, Icon$f as CheckmarkIcon, Icon$g as ChevronDownIcon, Icon$h as ChevronLeftIcon, Icon$i as ChevronRightIcon, Icon$j as ChevronUpIcon, Icon$k as CloseIcon, Icon$l as CogIcon, Icon$m as CommunityIcon, Icon$n as CopyIcon, CopyToClipboard, Dropdown, Icon$1 as ErrorIcon, Flex, Icon$w as GooseRoundIcon, Heading, Icon$o as HelpIcon, IconButton, Image, Icon$3 as InfoIcon, Input, Link, LinkExternal, Icon$p as ListViewIcon, Icon$q as LogoIcon, Icon$r as LogoRoundIcon, Menu, Icon$s as MinusIcon, Modal, ModalProvider, Icon$t as OpenNewIcon, Icon$v as PancakeRoundIcon, Icon$u as PancakesIcon, Icon$x as PrizeIcon, Progress, Icon$A as ProgressBunny, Radio, Icon$y as RemoveIcon, ResetCSS, Icon$E as SearchIcon, Skeleton, Spinner, Svg, Icon$F as SwapVertIcon, Icon$69 as DiscordIcon, Icon$72 as ClaimIcon,Icon$73 as PictureIcon, Icon$74 as ImageThumbnail,  Icon$70 as PaintIcon, Icon$71 as TextIcon, Icon$G as SyncAltIcon, Tag, Text, Icon$C as Ticket, Icon$D as TicketRound, ToastContainer, Toggle, Icon$z as VerifiedIcon, Icon$H as WarningIcon, Icon$B as Won, variants$1 as alertVariants, byTextAscending, byTextDescending, darkTheme as dark, darkColors, lightTheme as light, lightColors, makeRender, links as menuConfig, types as toastTypes, useMatchBreakpoints, useModal, useParticleBurst, useTable, useWalletModal };
