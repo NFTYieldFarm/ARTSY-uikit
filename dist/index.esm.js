@@ -2323,7 +2323,7 @@ var socials = [
     {
         label: "Twitter",
         icon: "TwitterIcon",
-        href: "https://twitter.com/artsydefi",
+        href: "https://twitter.com/artsy_defi",
     },
     {
         label: "Discord",
@@ -2601,27 +2601,13 @@ var connectors = [
         title: "TrustWallet",
         icon: Icon$19,
         connectorId: "injected",
-    },
-    {
-        title: "MathWallet",
-        icon: Icon$17,
-        connectorId: "injected",
-    },
-    {
-        title: "TokenPocket",
-        icon: Icon$18,
-        connectorId: "injected",
-    },
+    },    
     {
         title: "WalletConnect",
         icon: Icon$1a,
         connectorId: "walletconnect",
     },
-    {
-        title: "Binance Chain Wallet",
-        icon: Icon$1b,
-        connectorId: "bsc",
-    },
+   
 ];
 var localStorageKey = "accountStatus";
 
