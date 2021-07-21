@@ -342,8 +342,8 @@ var Icon$p = function (props) {
 };
 
 var Icon$q = function (props) {
-    return (React.createElement(Svg, __assign({ viewBox: "0 0 205 70" }, props),
-        React.createElement("image", { width: "205", height: "70", href: "/images/egg/banner.png" })));
+    return (React.createElement(Svg, __assign({ viewBox: "0 0 89 40 " }, props),
+        React.createElement("image", { width: "89", height: "40", href: "/images/egg/mobileBanner.png" })));
 };
 
 var Icon$r = function (props) {
@@ -2127,7 +2127,7 @@ MenuButton.defaultProps = {
 };
 var templateObject_1$x;
 
-var StyledLink$1 = styled(Link$1)(templateObject_1$y || (templateObject_1$y = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  .mobile-icon {\n    width: 32px;\n    ", " {\n      display: none;\n    }\n  }\n  .desktop-icon {\n    width: 156px;\n    display: none;\n    ", " {\n      display: block;\n    }\n  }\n"], ["\n  display: flex;\n  align-items: center;\n  .mobile-icon {\n    width: 32px;\n    ", " {\n      display: none;\n    }\n  }\n  .desktop-icon {\n    width: 156px;\n    display: none;\n    ", " {\n      display: block;\n    }\n  }\n"])), function (_a) {
+var StyledLink$1 = styled(Link$1)(templateObject_1$y || (templateObject_1$y = __makeTemplateObject(["\n  display: flex;\n  align-items: center;\n  .mobile-icon {\n    width: 89px;\n  height:40px; \n   ", " {\n      display: none;\n    }\n  }\n  .desktop-icon {\n    width: 156px;\n    display: none;\n    ", " {\n      display: block;\n    }\n  }\n"], ["\n  display: flex;\n  align-items: center;\n  .mobile-icon {\n    width: 89px;\n  height:40px; \n ", " {\n      display: none;\n    }\n  }\n  .desktop-icon {\n    width: 156px;\n    display: none;\n    ", " {\n      display: block;\n    }\n  }\n"])), function (_a) {
     var theme = _a.theme;
     return theme.mediaQueries.nav;
 }, function (_a) {
