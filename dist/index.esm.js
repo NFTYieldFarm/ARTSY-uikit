@@ -2466,7 +2466,7 @@ var PanelFooter = function (_a) {
                 return (React.createElement(Link, { external: true, key: social.label, href: social.href, "aria-label": social.label, mr: mr },
                     React.createElement(Icon, __assign({}, iconProps))));
             }))),
- 
+/* 
             React.createElement(SettingsEntry, null,
                 React.createElement(Button, { variant: "text", onClick: function () { return toggleTheme(!isDark); } },
                     React.createElement(Flex, { alignItems: "center" },
@@ -2477,7 +2477,9 @@ var PanelFooter = function (_a) {
                         React.createElement(Text, { color: "textSubtle" }, currentLang === null || currentLang === void 0 ? void 0 : currentLang.toUpperCase())) }, langs.map(function (lang) { return (React.createElement(MenuButton, { key: lang.code, fullWidth: true, onClick: function () { return setLang(lang); }, 
                     // Safari fix
                     style: { minHeight: "32px", height: "auto" } }, lang.language)); })))));
-    
+*/
+
+    ));
 
 
 };
